@@ -1,0 +1,17 @@
+{
+  "name": "usd-to-bgn-notifier",
+  "version": "1.0.0",
+  "description": "USD to BGN  price notifier created with Chat GPT. The program checks USD to BGN price, provided by Google Finance every minute and send email notification in case the price is lower then speciefied value. That's how the user is notified about good price to buy USD with BGN.",
+  "main": "usd-bgn-notifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Tasev and Chat GPT",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.9.0",
+    "puppeteer": "^19.5.2"
+  }
+}
