@@ -8,7 +8,9 @@ When the project is cloned or downloaded, type in the terminal the following in 
 ```
 npm / yarn install
 ```
-## Run the web server
+## Add your data
+Add your data (account credentials etc) to `app-data-example.js` and rename it to: `app-data.js`.
+## Run the program
 To run the program use:
 ```
 node app.js
